@@ -17,6 +17,8 @@ func permute(nums []int) [][]int {
 		}
 	}
 	dfs(0)
+	ch1 := make(chan int, 1)
+	ch1 <- 1
 	return res
 
 }

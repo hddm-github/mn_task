@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现将1到3999之间的整数转换为罗马数字的功能",
+			"kind": "dev",
+			"methods": {
+				"intToRoman(uint256)": {
+					"details": "将整数转换为罗马数字",
+					"params": {
+						"num": "输入的整数值（1 <= num <= 3999）"
+					},
+					"returns": {
+						"_0": "对应的罗马数字字符串"
+					}
+				}
+			},
+			"title": "整数转罗马数字",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2_solidity/task4.sol": "IntegerToRoman"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2_solidity/task4.sol": {
+			"keccak256": "0x79e6e5b62eb2d46cf91d1d1f7e3417d5fe9ebf1825414bdd380e3f9122184ffb",
+			"urls": [
+				"bzz-raw://a71b4170b908425d673fc8f8bbb8a83c04b3b7606bc258d340765ec3fd78c5f4",
+				"dweb:/ipfs/QmX2btZmBmY1vQ6ygfWeFQach6JGTXd5JDoDbm3dLLBrkA"
+			]
+		}
+	},
+	"version": 1
+}

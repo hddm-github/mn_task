@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"name": "romanValues",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2_solidity/task3.sol": "RomanToInteger"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2_solidity/task3.sol": {
+			"keccak256": "0x8258183a5c2965319575fe61b42625a0492a23cb25a495ad93ca8ba2b977f985",
+			"urls": [
+				"bzz-raw://48c9b016ecd4c8e0abf956d80d89febb532c247395274bfe892bf749cb56ecbb",
+				"dweb:/ipfs/QmastZaLnMdrJPbtiegX9N232PxGusDa8mtJuzBqKFW2wY"
+			]
+		}
+	},
+	"version": 1
+}
